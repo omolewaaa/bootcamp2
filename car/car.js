@@ -31,10 +31,10 @@ class Car{
 }
     drive(gear){
     	if (this.type === "trailer"){
-    		this.speed = 11 *gear + " " + "km/h";
+    		this.speed = ${11 *gear}km/h;
     	}
     	else{
-    		this.speed = 50 * gear + " " + "km/hr";
+    		this.speed = ${50 * gear}km/hr;
     	}
     	return this;
     }
